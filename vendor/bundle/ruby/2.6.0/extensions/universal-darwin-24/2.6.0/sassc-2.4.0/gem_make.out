@@ -1,5 +1,5 @@
 current directory: /Users/yash/Documents/headsoncrooked/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20250527-7259-syrkip.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20250527-9099-12wvgq5.rb extconf.rb
 creating Makefile
 
 current directory: /Users/yash/Documents/headsoncrooked/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
@@ -88,4 +88,4 @@ ld: warning: search path '/AppleInternal/Library/BuildRoots/1c8f7852-1ca9-11f0-b
 
 current directory: /Users/yash/Documents/headsoncrooked/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20250527-7259-30rr81/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20250527-9099-1aps0j8/sassc

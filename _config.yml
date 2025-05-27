@@ -73,3 +73,5 @@ permalink: pretty # Permalink will be /YYY/MM/DD/page-name/
 timezone: Europe/London
 
 
+sass:
+  sass_dir: _sass

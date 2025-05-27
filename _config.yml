@@ -26,6 +26,7 @@ url: "" # The base hostname for you site, e.g. http://mysite.com
 baseurl: "/simply-cyan-theme" # The subpath of your site, e.g. /blog
 repo:
 email: youremail@something.com # The owner's email
+theme: simply-cyan
 # google_analytics: ""
 # google_analytics_anonymize_ip: ""
 

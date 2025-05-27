@@ -26,7 +26,7 @@ url: "https://www.headsoncrooked.com" # The base hostname for you site, e.g. htt
 baseurl: "" # The subpath of your site, e.g. /blog
 repo:
 email: youremail@something.com # The owner's email
-theme: simply-cyan
+theme: null
 # google_analytics: ""
 # google_analytics_anonymize_ip: ""
 

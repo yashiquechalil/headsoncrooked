@@ -8,7 +8,7 @@
   --font-sansserif: "Montserrat", sans-serif; // Sans-Serif font
   --font-color: #333333; // Font color
   --font-size: 22px; // Font size
-  --text-width: 35em; // Width of the area where the content of the pages and posts are displayed
+  --text-width: 50em; // Width of the area where the content of the pages and posts are displayed
   --text-font: var(--font-serif); // Default font for the text
   --line-height: calc(var(--font-size) * 2); // Line height
   --custom-color: cyan; // Complementary color, for the lines and underlinings
@@ -38,6 +38,14 @@
     rgba(255, 255, 255, 0) 50%
   ); // Lines
   --quote-color: #333642; // Background-color for quotes
+}
+
+// Add to your CSS or SCSS
+.theme-switch {
+  position: absolute;
+  top: 20px;    // Adjust as needed
+  right: 30px;  // Adjust as needed
+  z-index: 1000;
 }
 
 .dark-mode-label::before {
@@ -102,3 +110,70 @@
   --text-font: var(--font-sansserif);
 }
 
+.post-thumb {
+  display: block;
+  width: 60vw;           // Makes image responsive to container width
+  max-width: 70vw;      // Set a max width as needed
+  height: auto;          // Maintain aspect ratio
+
+  margin: 0 auto 1em;    // Center image and add space below
+  border-radius: 12px;   // Rounded corners
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10); // Subtle shadow
+  object-fit: cover;     // Crop image if needed
+}
+
+// Center the post container and its content
+.apercu-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center; // Center children horizontally
+}
+
+// Style for the home page description
+.home-description {
+  max-width: 700px;
+  margin: 10em auto 15em auto;
+  //padding: 2em 2em 1.5em 2em;
+  //background: #232325;         // Subtle dark background, adjust as needed
+  //border-radius: 16px;
+  //box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  color: var(--font-color);              // White text for contrast
+  font-size: 1.25rem;
+  line-height: 1.7;
+  text-align: center;
+
+
+  strong {
+    font-size: 1.4em;
+    letter-spacing: 0.02em;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+}
+
+.title-flex-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 3em;
+  margin-bottom: 3em;
+}
+
+.title-main {
+  flex: 2;
+}
+
+.title-flex-row h1,
+.title-flex-row h2 {
+  margin: 0 0 1em 0;
+}
+
+.title-side-image {
+  flex: 1;
+  max-width: 15em;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: block;
+}

@@ -15,9 +15,13 @@
       {% endfor %}
   </nav>
   <div class="site_functions">
+    
     {% if site.darkmode == true %}
+      <div class="theme-switch">
       <label class="dark-mode-label" aria-label="Night Mode" for="dark-mode"></label>
+      </div>
     {% endif %}
+      
     {% if site.typosize == true %}
       <label class="typo-plus-label" aria-label="Change font size" for="typo-plus"></label>
     {% endif %}

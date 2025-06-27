@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-:root { --bg-color: #f2f2f2; --font-serif: "Libre Baskerville", serif; --font-sansserif: "Montserrat", sans-serif; --font-color: #333333; --font-size: 22px; --text-width: 35em; --text-font: var(--font-serif); --line-height: calc(var(--font-size) * 2); --custom-color: cyan; --lines: linear-gradient(
+:root { --bg-color: #f2f2f2; --font-serif: "Libre Baskerville", serif; --font-sansserif: "Montserrat", sans-serif; --font-color: #333333; --font-size: 22px; --text-width: 50em; --text-font: var(--font-serif); --line-height: calc(var(--font-size) * 2); --custom-color: cyan; --lines: linear-gradient(
     to top,
     var(--custom-color) 50%,
     rgba(255, 255, 255, 0) 50%
@@ -13,6 +13,8 @@
     var(--custom-color) 50%,
     rgba(255, 255, 255, 0) 50%
   ); --quote-color: #333642; }
+
+.theme-switch { position: absolute; top: 20px; right: 30px; z-index: 1000; }
 
 .dark-mode-label::before { content: var(--dark-mode-label); }
 
@@ -35,6 +37,22 @@
 .typo-dys-checkbox:checked ~ .theme-container .typo-dys-label::before { content: var(--serif-label); font-family: var(--font-serif); }
 
 #typo-dys:checked, #typo-dys:checked ~ .theme-container { --text-font: var(--font-sansserif); }
+
+.post-thumb { display: block; width: 60vw; max-width: 70vw; height: auto; margin: 0 auto 1em; border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); object-fit: cover; }
+
+.apercu-post { display: flex; flex-direction: column; align-items: center; }
+
+.home-description { max-width: 700px; margin: 10em auto 15em auto; color: var(--font-color); font-size: 1.25rem; line-height: 1.7; text-align: center; }
+
+.home-description strong { font-size: 1.4em; letter-spacing: 0.02em; display: block; margin-bottom: 0.5em; }
+
+.title-flex-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 3em; margin-bottom: 3em; }
+
+.title-main { flex: 2; }
+
+.title-flex-row h1, .title-flex-row h2 { margin: 0 0 1em 0; }
+
+.title-side-image { flex: 1; max-width: 15em; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); display: block; }
 
 * { margin: 0; padding: 0; }
 
@@ -103,6 +121,8 @@ main { padding: 30px; min-height: 55%; }
 main a { background: var(--lines); background-repeat: no-repeat; background-size: 100% 100%; transition: background-size 0.5s 0s; }
 
 main a:hover { background-size: 0% 100%; }
+
+.apercu-post a[role="listitem"] { background: none !important; background-size: initial !important; background-repeat: initial !important; transition: none !important; }
 
 .line { height: 30px; border-bottom: 10px solid var(--custom-color); transform: rotate(2deg); position: relative; top: var(--line-height); margin-bottom: calc(var(--line-height) * 3); }
 

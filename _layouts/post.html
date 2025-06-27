@@ -8,6 +8,6 @@ layout: page
   <h2 class="list_post_info">
     {% for author in authors %}
       <a href="{{ site.baseurl }}/categories/{{ author | slugify }}">{{ author }}</a> ✷
-    {% endfor %}  {{ page.date | date_to_long_string }}
+    {% endfor %}  
   </h2>
 </div>

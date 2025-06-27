@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-:root { --bg-color: #f2f2f2; --font-serif: "Libre Baskerville", serif; --font-sansserif: "Montserrat", sans-serif; --font-color: #333333; --font-size: 22px; --text-width: 50em; --text-font: var(--font-serif); --line-height: calc(var(--font-size) * 2); --custom-color: cyan; --lines: linear-gradient(
+:root { --bg-color: #f2f2f2; --font-serif: "Libre Baskerville", serif; --font-sansserif: "Montserrat", sans-serif; --font-color: #333333; --font-size: 22px; --text-width: 60em; --text-font: var(--font-serif); --line-height: calc(var(--font-size) * 2); --custom-color: cyan; --lines: linear-gradient(
     to top,
     var(--custom-color) 50%,
     rgba(255, 255, 255, 0) 50%

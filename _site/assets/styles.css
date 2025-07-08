@@ -42,7 +42,7 @@
 
 .apercu-post { display: flex; flex-direction: column; align-items: center; }
 
-.home-description { max-width: 700px; margin: 10em auto 15em auto; color: var(--font-color); font-size: 1.25rem; line-height: 1.7; text-align: center; }
+.home-description { max-width: 900px; margin: 10em auto 15em auto; color: var(--font-color); font-size: 1.25rem; line-height: 1.7; text-align: center; }
 
 .home-description strong { font-size: 1.4em; letter-spacing: 0.02em; display: block; margin-bottom: 0.5em; }
 

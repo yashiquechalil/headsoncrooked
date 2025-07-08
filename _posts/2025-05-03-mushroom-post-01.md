@@ -31,14 +31,14 @@ Team:
  
 Cast:   
 The Mushroom – Garrick Pagel   
-Pagel Karies – Till Schinder   
-Schindler Erwin – Tiger Mitchell  
+Karies – Till Schindler   
+Erwin – Tiger Mitchell  
  
 Production: 
  
 Co-Director/Co-Producer – Lola Rose Wood  
 Co-Director/Co-Producer – Garrick Pagel  
 Co-Producer – Leah Byrne   
-Co-Producer – Till Schinder  
+Co-Producer – Till Schindler  
 Tech – Yashique Chalil  
 Costume - Tilly Bankes   

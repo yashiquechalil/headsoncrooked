@@ -22,6 +22,9 @@ image: assets/mushroomification-webTile.png
 
 
 ### [Buy Tickets](https://www.edfringe.com/tickets/whats-on/mushroomification-legs-legs-legs)
+
+
+### [Help us spread the spores](https://crowdfund.edfringe.com/p/mushroomification-legs-legs-legs)
  
 Mushroomification: Legs, Legs, Legs follows the unlikely (and explosive)  collision between a man and a mushroom. In one place, there is a mushroom, deep within the forest, raging against the oppressive mycelial hive mind that it has been born to serve and desperate to create a body of its own so that it might escape. In another, a scientist by the name of Karies is working in secret on developing a human hive-mind with the hopes of saving the world - which in Karies’ mind, means making everyone more like him.
  

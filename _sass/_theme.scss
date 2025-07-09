@@ -283,10 +283,11 @@ footer {
 
   .site_title{
     margin-bottom:calc(var(--line-height)*0.5);
+    width: 6em;
   }
 
   .site_title, .list_post_title{
-    font-size:calc(var(--font-size)*1.5);
+    font-size:calc(var(--font-size)*0.9);
     }
 
   .pages_links{
@@ -308,6 +309,50 @@ footer {
 
   .list_post_info{
     margin-bottom: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-sansserif);
+  }
+
+  h1 {
+    font-size: calc(var(--font-size) * 1.7);
+  }
+
+  h2 {
+    font-size: calc(var(--font-size) * 1.2);
+  }
+   h3{
+    font-size: calc(var(--font-size) * 0.8);
+    line-height: auto;
+  }
+
+  a {
+    color: var(--font-color);
+    text-decoration: none;
+  }
+  p, li {
+  font-size: medium;
+  margin-bottom: var(--line-height);
+  line-height: normal;
+  }
+
+  hr {
+    margin-bottom: var(--line-height);
+    border: 3px solid var(--custom-color);
+  }
+
+  tr {
+    line-height: calc(var(--line-height)/3);
+  }
+
+  article h1,h2,h3,h4,h5,h6{
+  margin-bottom: auto;
   }
 
 }

@@ -190,3 +190,40 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 801px)
+{
+  .post-thumb {
+    display: block;
+    width: 100%;
+    max-width: 100em;
+    height: auto;
+    margin: 0 auto 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+}
+
+.home-description {
+  max-width: 900px;
+  margin: 5em auto 15em auto;
+  //padding: 2em 2em 1.5em 2em;
+  //background: #232325;         // Subtle dark background, adjust as needed
+  //border-radius: 16px;
+  //box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  color: var(--font-color);              // White text for contrast
+  font-size: 1em;
+  line-height: 1.7;
+  text-align: center;
+
+
+  strong {
+    font-size: 1.2em;
+    letter-spacing: 0.02em;
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+
+}
+}
